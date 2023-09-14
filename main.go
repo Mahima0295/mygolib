@@ -1,6 +1,6 @@
 package mygolib
 
-import log
+import "log"
 
 func LogInfo(message string) {
   log.Printf("INFO - %v", message)
